@@ -43,7 +43,7 @@ if __name__ == "__main__":
     c = int(sys.argv[3])
     lines = f.readlines()
     f.close()
-    alg = algm.alg(c, k=k)
+    alg = algm.alg(c)
     alg.setup(lines)
 
     time1 = time.time()
